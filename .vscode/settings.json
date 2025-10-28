@@ -1,0 +1,4 @@
+{
+    // Varmistaa, että VS Code:n sisäänrakennettu Git on sallittu tässä työtilassa.
+    "git.enabled": true
+}
