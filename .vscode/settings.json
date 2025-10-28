@@ -1,4 +1,10 @@
 {
-    // Varmistaa, että VS Code:n sisäänrakennettu Git on sallittu tässä työtilassa.
-    "git.enabled": true
+    // Varmistaa, että VS Code:n sisäänrakennettu Git on sallittu tässä työtilassa
+    "git.enabled": true,
+    // Automaattinen fetch etäreposta taustalla — pitää Source Controlin ajan tasalla
+    "git.autofetch": true,
+    // Salli älykäs commit-painike (voi commitoida suoraan UI:sta)
+    "git.enableSmartCommit": true,
+    // Ei kysytä joka kerta sync-varmistusta
+    "git.confirmSync": false
 }
